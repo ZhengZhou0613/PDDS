@@ -1,0 +1,18 @@
+Package: PDDS
+Type: Package
+Title: Parallel Data-Driven Subsampling
+Version: 1.0.0
+Author: Zheng Zhou, Zebin Yang, Aijun Zhang, Yongdao Zhou
+Maintainer: Zheng Zhou <zhengzhou@mail.nankai.edu.cn>
+Description: An efficient model-free subsampling method for massive data. It can be used to obtain representative subsamples from datasets with large sample sizes and moderate dimensions.
+License: GPL-3
+Depends: R (>= 4.1.0)
+Imports:
+    MVN,
+    numbers,
+    parallel,
+    RANN,
+    Rcpp,
+    UniDOE (>= 1.0.2)
+Encoding: UTF-8
+Packaged: 2023-07-11
